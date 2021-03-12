@@ -4,24 +4,39 @@
   width: 70%;
 }
 
+.navigation {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
 /* Modifiche nav left */
 nav {
   margin-top: 40px;
 }
 
-nav.navbar a img {
+nav.navbar-left a img {
   width: 20px;
 }
 
-ul.navbar-nav li a.nav-link {
+.navbar-left ul li a.item {
   margin: 0 20px;
 }
 
 /* Modifiche nav right */
 
-.navbar-right ul.nav li {
-  margin: 0 10px;
+.navbar-right ul.list-right li a{
+  margin: 0 15px;
 }
+
+
+.navbar-right {
+  width: 80%;
+}
+
+
 
 /* Tasto accedi */
 #login {
@@ -30,10 +45,24 @@ ul.navbar-nav li a.nav-link {
   padding: 10px 20px;
 }
 
+.nav-item {
+  margin-bottom: 20px;
+}
+
+.dropdown-menu {
+  display: block;
+}
+
 /* Tasto scarica */
 
 #download {
   background-color: #191c1f;
   border-radius: 10px;
   padding: 10px 20px;
+}
+
+/* dropdown */
+
+.prova {
+  margin-top: 10px;
 }
