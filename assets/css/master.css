@@ -1,7 +1,5 @@
-
-/* Modifico il container-fluid  */
 .container-fluid {
-  width: 65%;
+  width: 75%;
 }
 
 .navigation {
@@ -33,12 +31,22 @@ nav.navbar-left a img {
 
 
 .navbar-right {
-  width: 80%;
+  width: 90%;
 }
 
+.navbar-left {
+  width: 10%;
+}
 
+/* Modifiche Boostrap */
+ul li a.dropdown-item:hover {
+  background: none;
+}
 
-/* Tasto accedi */
+.dropdown-item {
+  color: grey;
+}
+
 #login {
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -49,11 +57,12 @@ nav.navbar-left a img {
   margin-bottom: 20px;
 }
 
-
 .dropdown-menu {
+  margin-left: 10px;
   display: none;
   min-width: 50px;
-  margin-left: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
 
 .active {

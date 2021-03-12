@@ -7,20 +7,10 @@ $(document).ready(function() {
       dropdownMenu.addClass('active')
     });
 
+
     navLink.mouseleave(function(event) {
       /* Stuff to do when the mouse leaves the element */
         var dropdownMenu = $('.dropdown-menu', $(this));
         dropdownMenu.removeClass('active')
     });
   });
-
-//
-// navLink.hover(function() {
-//   /* Stuff to do when the mouse enters the element */
-//   var dropdownMenu = $('.dropdown-menu', $(this));
-//   dropdownMenu.addClass('active')
-// }, function() {
-//   /* Stuff to do when the mouse leaves the element */
-//     var dropdownMenu = $('.dropdown-menu', $(this));
-//     dropdownMenu.removeClass('active')
-// });
