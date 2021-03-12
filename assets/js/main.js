@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var navLink = $('nav ul.list-right li.dropdown');
+  var navLink = $('nav ul li.dropdown');
       // Creo la mia funzione con hover
     navLink.mouseenter(function(event) {
       /* Stuff to do when the mouse enters the element */

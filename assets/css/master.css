@@ -58,9 +58,7 @@ ul li a.dropdown-item:hover {
 }
 
 .dropdown-menu {
-  margin-left: 10px;
   display: none;
-  min-width: 50px;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
@@ -69,10 +67,36 @@ ul li a.dropdown-item:hover {
   display: block;
 }
 
-
-#special {
-  width: 500px;
+.submenu {
+  width: 900px;
+  padding: 0 20px;
 }
+
+.submenu ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.submenu ul {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.submenu ul li a.dropdown-item {
+  font-size: 15px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.submenu ul li a:first-child {
+  text-align: left;
+  font-weight: bold;
+  color: #D7DDE1;
+  font-size: 11px;
+}
+
+
+
 
 
 /* Tasto scarica */
