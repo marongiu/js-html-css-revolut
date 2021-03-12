@@ -49,13 +49,18 @@ nav.navbar-left a img {
   margin-bottom: 20px;
 }
 
+
 .dropdown-menu {
-  display: block;
+  display: none;
   min-width: 50px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
+
+#special {
+  width: 500px;
+}
 
 
 /* Tasto scarica */
