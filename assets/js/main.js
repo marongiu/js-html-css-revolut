@@ -1,8 +1,26 @@
 $(document).ready(function() {
+  var navLink = $('nav ul.list-right li.dropdown');
+      // Creo la mia funzione con hover
+    navLink.mouseenter(function(event) {
+      /* Stuff to do when the mouse enters the element */
+      var dropdownMenu = $('.dropdown-menu', $(this));
+      dropdownMenu.addClass('active')
+    });
 
-var navLink = $('.navbar-right ul li a.nav-link')
-  navLink.mouseenter(function(event) {
-    var dropdown = $('.dropdown-menu');
-    dropdown.show()
+    navLink.mouseleave(function(event) {
+      /* Stuff to do when the mouse leaves the element */
+        var dropdownMenu = $('.dropdown-menu', $(this));
+        dropdownMenu.removeClass('active')
+    });
   });
-});
+
+//
+// navLink.hover(function() {
+//   /* Stuff to do when the mouse enters the element */
+//   var dropdownMenu = $('.dropdown-menu', $(this));
+//   dropdownMenu.addClass('active')
+// }, function() {
+//   /* Stuff to do when the mouse leaves the element */
+//     var dropdownMenu = $('.dropdown-menu', $(this));
+//     dropdownMenu.removeClass('active')
+// });
