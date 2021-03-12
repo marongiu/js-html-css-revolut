@@ -1,7 +1,7 @@
 
 /* Modifico il container-fluid  */
 .container-fluid {
-  width: 70%;
+  width: 65%;
 }
 
 .navigation {
@@ -28,7 +28,7 @@ nav.navbar-left a img {
 /* Modifiche nav right */
 
 .navbar-right ul.list-right li a{
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 
@@ -51,7 +51,12 @@ nav.navbar-left a img {
 
 .dropdown-menu {
   display: block;
+  min-width: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
+
+
 
 /* Tasto scarica */
 
