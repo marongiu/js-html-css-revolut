@@ -92,11 +92,23 @@ ul li a.dropdown-item:hover {
   text-align: left;
   font-weight: bold;
   color: #D7DDE1;
-  font-size: 11px;
+  font-size: 12px;
 }
 
+.submenu ul li a i {
+  padding: 0 5px;
+}
 
+/* Main */
 
+#main-img {
+  width: 480px;
+}
+
+.title p {
+  margin-top: 50px;
+  font-size: 18px;
+}
 
 
 /* Tasto scarica */
