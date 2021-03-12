@@ -1,0 +1,18 @@
+
+/* Modifico il container-fluid  */
+.container-fluid {
+  width: 70%;
+}
+
+/* Modifiche nav */
+nav {
+  margin-top: 40px;
+}
+
+nav.navbar a img {
+  width: 20px;
+}
+
+ul.navbar-nav li a.nav-link {
+  margin: 0 20px;
+}
