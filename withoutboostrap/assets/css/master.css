@@ -1,0 +1,61 @@
+ /* Ricreo la navbar ma senza usare la funzione dropdown di boostrap */
+
+
+/* Fisso una width al container-fluid */
+.container-fluid {
+  width: 70%;
+  padding: 0;
+}
+
+/* Ridimensiono l'immagine logo */
+ul.brand-logo li a img{
+  width: 20px;
+}
+
+/* fisso un padding a tutte le liste e rimuovo lo style*/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.main li {
+  text-align: center;
+  list-style: none;
+  padding: 0 15px;
+  margin: 0;
+}
+
+ul.sub {
+  margin: 0;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  border-radius: 10px;
+}
+
+ul.sub li a{
+  color: rgb(139, 149, 158);
+}
+
+.dropdown-list {
+  margin-top: 20px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/* Bottoni login e iscrizione */
+
+#login {
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+#subscription {
+  background-color: rgb(25, 28, 31);
+  padding: 15px 20px;
+  border-radius: 10px;
+}

@@ -38,6 +38,10 @@ nav.navbar-left a img {
   width: 10%;
 }
 
+.container-main {
+  width: 69%;
+  margin: 0 auto;
+}
 /* Modifiche Boostrap */
 ul li a.dropdown-item:hover {
   background: none;
