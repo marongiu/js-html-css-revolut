@@ -20,10 +20,13 @@ nav ul {
 }
 
 nav ul.main li {
-  text-align: center;
   list-style: none;
-  padding: 0 15px;
+  padding: 0;
   margin: 0;
+}
+
+nav ul.main li a {
+  margin: 0 15px;
 }
 
 ul.sub {
@@ -38,6 +41,8 @@ ul.sub li a{
 }
 
 .dropdown-list {
+  position: absolute;
+  width: 200px;
   margin-top: 20px;
   display: none;
 }
@@ -47,6 +52,8 @@ ul.sub li a{
 }
 
 /* Bottoni login e iscrizione */
+
+
 
 #login {
   background-color: rgba(230, 230, 230, 0.6);
